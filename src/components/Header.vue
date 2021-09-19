@@ -50,7 +50,7 @@
                     </li>
 
                     <li>
-                        <a href="/#contact">Contact</a>
+                        <a href="/#contact" class="contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -202,7 +202,7 @@ nav {
 }
 @media screen and (min-width: 1025px) {
     nav {
-        height: 140px;
+        height: 110px;
         display: flex;
         flex-direction: row;
     }
@@ -213,13 +213,14 @@ nav {
         align-items: center;
     }
     .logo {
-        width: 20%;
+        width: 250px;
     }
     #menuToggle {
         display: none;
     }
     .menuDesktop {
         display: block;
+        align-items: center;
     }
     .menuDesktop ul {
         display: flex;
@@ -229,6 +230,11 @@ nav {
     .menuDesktop li {
         margin-right: 40px;
         margin-left: 40px;
+    }
+    .contact {
+        background-color: rgb(4, 152, 252);
+        border-radius: 5px;
+        padding: 10px;
     }
 }
 </style>
