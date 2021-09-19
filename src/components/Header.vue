@@ -12,7 +12,7 @@
                     </li>
 
                     <li>
-                        <a href="/#apropos">A propos</a>
+                        <a href="/#apropos">Présentation</a>
                     </li>
 
                     <li>
@@ -30,6 +30,29 @@
             </div>
             <div class="containerLogo">
                 <img src="../assets/logo.png" alt="logo" class="logo" />
+            </div>
+            <div class="menuDesktop">
+                <ul>
+                    <li>
+                        <a href="/">Accueil</a>
+                    </li>
+
+                    <li>
+                        <a href="/#apropos">Présentation</a>
+                    </li>
+
+                    <li>
+                        <a href="/#projet">Projets</a>
+                    </li>
+
+                    <li>
+                        <a href="/#service">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="/#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
@@ -68,7 +91,7 @@ a:hover {
     opacity: 0.5;
 }
 ul {
-    padding: 0;
+    padding-top: 25px;
     list-style-type: none;
     display: unset;
 }
@@ -162,9 +185,50 @@ nav {
 #menuToggle input:checked ~ ul {
     transform: none;
 }
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
-    .nav {
-        height: 300px;
+.menuDesktop {
+    display: none;
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+    .logo {
+        width: 25%;
+    }
+    nav {
+        height: 110px;
+    }
+    #menu {
+        width: 35%;
+        border-radius: 15px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    nav {
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+    }
+    .containerLogo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .logo {
+        width: 20%;
+    }
+    #menuToggle {
+        display: none;
+    }
+    .menuDesktop {
+        display: block;
+    }
+    .menuDesktop ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .menuDesktop li {
+        margin-right: 40px;
+        margin-left: 40px;
     }
 }
 </style>
