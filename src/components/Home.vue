@@ -64,4 +64,29 @@ img {
     color: white;
     text-decoration: none;
 }
+@media screen and (min-width: 1025px) {
+    .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+    }
+    .homeText {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    .homeBulle {
+        width: 400px;
+    }
+    .homeLangage {
+        text-align: start;
+    }
+    .homeButton {
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+}
 </style>
