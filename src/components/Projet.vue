@@ -89,4 +89,19 @@ img {
 h2 {
     font-size: 1.8rem;
 }
+@media screen and (min-width: 1025px) {
+    .projetsList {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 40px;
+    }
+    .projet {
+        width: 350px;
+        margin: 30px;
+    }
+}
 </style>
