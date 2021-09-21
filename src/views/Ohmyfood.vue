@@ -85,4 +85,23 @@ a {
     margin: 20px;
     text-decoration: none;
 }
+@media screen and (min-width: 1025px) {
+    .ohmyfood {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 75vh;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 90px;
+    }
+    img {
+        height: 95%;
+        width: auto;
+        margin-right: 60px;
+    }
+    .container {
+        overflow-y: hidden;
+    }
+}
 </style>

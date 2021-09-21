@@ -82,7 +82,7 @@ a {
     color: white;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
     .contact {
         display: flex;
         flex-direction: row;
