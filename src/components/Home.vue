@@ -10,7 +10,7 @@
             <p class="homeLangage">Vue JS, Node JS, Javascript, PHP</p>
 
             <div class="homeBtn">
-                <a src="" class="homeButton">Mon CV</a>
+                <a href="/CV" class="homeButton">Mon CV</a>
                 <a href="#projet" class="homeButton">Portfolio</a>
             </div>
         </div>

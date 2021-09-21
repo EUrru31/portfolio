@@ -5,6 +5,7 @@ import Ohmyfood from "@/views/Ohmyfood.vue";
 import Piquante from "@/views/Piquante.vue";
 import Groupomania from "@/views/Groupomania.vue";
 import Orinoco from "@/views/Orinoco.vue";
+import CV from "@/views/CV.vue";
 
 const routes = [
     {
@@ -64,6 +65,15 @@ const routes = [
             title: "Etienne Urru Groupomania",
             description:
                 "Page de présentation du projet Groupomania d'OpenClassRoom fait par Etienne Urru",
+        },
+    },
+    {
+        name: "CV",
+        path: "/CV",
+        component: CV,
+        meta: {
+            title: "Etienne Urru CV",
+            description: "CV Etienne Urru",
         },
     },
 ];
