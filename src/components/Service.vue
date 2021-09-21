@@ -64,4 +64,28 @@ export default {
     margin-left: 20px;
     margin-right: 20px;
 }
+@media screen and (min-width: 1025px) {
+    .banniere {
+        background-image: url("../assets/banniere1.jpg");
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 60px;
+        padding-top: 7%;
+        font-size: 1.5rem;
+    }
+    img {
+        width: 80%;
+    }
+    .servicesList {
+        display: flex;
+        flex-direction: row;
+    }
+    .service {
+        width: 50%;
+    }
+}
 </style>
