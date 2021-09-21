@@ -63,7 +63,6 @@ export default {
     .presentationPhoto {
         display: block;
         margin-left: 80px;
-        margin-top: 50px;
     }
     .presentationPage {
         display: flex;
