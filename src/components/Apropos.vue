@@ -51,14 +51,13 @@ export default {
     margin-bottom: 40px;
     text-align: center;
 }
-h2 {
-    font-size: 1.8em;
-}
+
 .presentationPhoto {
     display: none;
 }
 .presentationText {
     margin-top: 40px;
+    font-size: 1.3rem;
 }
 @media screen and (min-width: 1025px) {
     .presentationPhoto {

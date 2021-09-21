@@ -73,6 +73,9 @@ export default {
     cursor: pointer;
     overflow: hidden;
 }
+p {
+    font-size: 1.3rem;
+}
 .projetTitle {
     display: flex;
     flex-direction: column;
@@ -86,9 +89,6 @@ img {
     border-radius: 5px;
 }
 
-h2 {
-    font-size: 1.8rem;
-}
 @media screen and (min-width: 1025px) {
     .projetsList {
         display: flex;

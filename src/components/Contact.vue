@@ -64,6 +64,7 @@ export default {
 <style lang="css" scoped>
 .contact {
     text-align: center;
+    font-size: 1.3rem;
 }
 .contactInformation {
     margin-top: 20px;

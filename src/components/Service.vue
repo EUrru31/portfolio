@@ -53,6 +53,7 @@ export default {
 .services {
     text-align: center;
     margin-top: -60px;
+    font-size: 1.3rem;
 }
 .service {
     background-color: rgb(20, 20, 20);
@@ -63,6 +64,13 @@ export default {
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+}
+.servicesText {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 @media screen and (min-width: 1025px) {
     .banniere {

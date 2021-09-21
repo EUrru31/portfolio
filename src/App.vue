@@ -32,13 +32,13 @@ hr {
     color: rgb(4, 152, 252);
 }
 h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 0.5rem;
 }
 h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 h4 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 </style>
