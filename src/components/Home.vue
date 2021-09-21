@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="homePhoto">
-            <img src="../assets/moi.jpg" alt="photo Etienne Urru" />
+            <img src="../assets/laptop.jpg" alt="photo Etienne Urru" />
         </div>
     </div>
 </template>
@@ -30,7 +30,6 @@ export default {
 img {
     width: 250px;
     height: 300px;
-    margin-bottom: 40px;
 }
 .home {
     padding-top: 100px;
@@ -73,10 +72,10 @@ img {
         height: 100vh;
     }
     .homeText {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .homeBulle {
         width: 400px;
@@ -86,7 +85,17 @@ img {
     }
     .homeButton {
         margin-left: 150px;
-        margin-top: 100px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .homeBtn {
+        margin-top: 80px;
+        margin-left: -100px;
+    }
+    img {
+        margin-top: -50px;
+        width: 700px;
+        height: auto;
     }
 }
 </style>

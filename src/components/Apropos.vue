@@ -9,7 +9,7 @@
         </div>
         <div class="presentationPage">
             <div class="presentationPhoto">
-                <img src="../assets/moi.jpg" alt="photo Etienne Urru" />
+                <img src="../assets/moi.png" alt="photo Etienne Urru" />
             </div>
             <div class="presentationText">
                 <h2>Présentation</h2>
@@ -62,18 +62,22 @@ export default {
 @media screen and (min-width: 1025px) {
     .presentationPhoto {
         display: block;
-        margin-left: 150px;
+        margin-left: 80px;
+        margin-top: 50px;
     }
     .presentationPage {
         display: flex;
         flex-direction: row;
         margin-bottom: 100px;
-        margin-top: 100px;
+        margin-top: 70px;
     }
     .presentationText {
         width: 50%;
-        margin-left: auto;
+        margin-left: 130px;
         margin-right: 150px;
+    }
+    img {
+        width: 90%;
     }
 }
 </style>
