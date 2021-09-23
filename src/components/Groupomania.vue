@@ -2,36 +2,31 @@
     <div class="container">
         <Header />
 
-        <div class="reservia">
-            <img src="../assets/Reservia.png" alt="photo Réservia" />
+        <div class="groupomania">
+            <img src="../assets/groupomania.png" alt="photo Groupomania" />
             <div>
-                <h1 class="reservia__title">Réservia</h1>
+                <h1>Groupomania</h1>
                 <p>
-                    Projet 2 du parcours Développeur Web OpenClassrooms
+                    Projet 7 du parcours Développeur Web OpenClassrooms
                 </p>
                 <p>
-                    L'objectif du projet est d'intégrer le prototype d'un site
-                    proposant aux usagers de trouver des hébergements et des
-                    activités dans la ville de leur choix.
-                </p>
-                <p>
-                    Un design basé sur les principes du Material Design nous est
-                    proposé.
+                    L'objectif du projet est de construire un réseau social
+                    interne pour les employés de Groupomania. Le but de cet
+                    outil est de faciliter les interactions entre collègues. Le
+                    département RH de Groupomania a laissé libre cours à son
+                    imagination pour les fonctionnalités du réseau et a imaginé
+                    plusieurs briques pour favoriser les échanges entre
+                    collègues.
                 </p>
 
                 <h3>Technologies Utilisées</h3>
 
                 <p>
-                    HTML, CSS
+                    Vue.JS, MySQL, Node.JS
                 </p>
                 <div class="lien">
                     <a
-                        href="https://eurru31.github.io/Reservia-HTML-CSS-OpenClassrooms/"
-                        target="_blank"
-                        >Lien vers le site</a
-                    >
-                    <a
-                        href="https://github.com/EUrru31/Reservia-HTML-CSS-OpenClassrooms"
+                        href="https://github.com/EUrru31/Groupomania-VueJS-NodeJS--Mysql-Openclassrooms"
                         target="_blank"
                         >Lien vers le Github</a
                     >
@@ -44,11 +39,11 @@
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import Header from "./Header.vue";
+import Footer from "./Footer.vue";
 
 export default {
-    name: "Reservia",
+    name: "Groupomania",
     components: { Header, Footer },
     methods: {
         home() {
@@ -59,7 +54,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.reservia {
+.groupomania {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 50px;
@@ -86,7 +81,7 @@ a {
     text-decoration: none;
 }
 @media screen and (min-width: 1025px) {
-    .reservia {
+    .groupomania {
         display: flex;
         flex-direction: row;
         justify-content: space-around;

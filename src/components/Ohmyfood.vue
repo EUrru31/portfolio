@@ -2,43 +2,53 @@
     <div class="container">
         <Header />
 
-        <div class="orinoco">
-            <img src="../assets/orinoco.jpg" alt="photo Orinoco" />
+        <div class="ohmyfood">
+            <img src="../assets/ohmyfood.png" alt="photo ohmyfood" />
             <div>
-                <h1>Orinoco</h1>
+                <h1>Ohmyfood</h1>
                 <p>
-                    Projet 5 du parcours Développeur Web OpenClassrooms
+                    Projet 3 du parcours Développeur Web OpenClassrooms
                 </p>
                 <p>
-                    L'objectif du projet est de construire un site de vente en
-                    ligne.
+                    L'objectif du projet est de mettre en oeuvre des effets
+                    visuels et des animations sur une page web.
+                </p>
+                <p>
+                    Assurer la cohérence graphique d'un site web.
+                </p>
+                <p>
+                    Mettre en place une structure de navigation.
                 </p>
 
                 <h3>Technologies Utilisées</h3>
 
                 <p>
-                    Javascript, Bootstrap 4
+                    HTML, CSS, Préprocesseur CSS: Sass
                 </p>
                 <div class="lien">
                     <a
-                        href="https://github.com/EUrru31/Orinoco-Javascript-OpenClassrooms"
+                        href="https://eurru31.github.io/OhMyFood-HTML-CSS-OpenClassrooms/"
+                        target="_blank"
+                        >Lien vers le site</a
+                    >
+                    <a
+                        href="https://github.com/EUrru31/OhMyFood-HTML-CSS-OpenClassrooms"
                         target="_blank"
                         >Lien vers le Github</a
                     >
                 </div>
             </div>
         </div>
-
         <Footer />
     </div>
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import Header from "./Header.vue";
+import Footer from "./Footer.vue";
 
 export default {
-    name: "Orinoco",
+    name: "Ohmyfood",
     components: { Header, Footer },
     methods: {
         home() {
@@ -49,7 +59,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.orinoco {
+.ohmyfood {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 50px;
@@ -76,7 +86,7 @@ a {
     text-decoration: none;
 }
 @media screen and (min-width: 1025px) {
-    .orinoco {
+    .ohmyfood {
         display: flex;
         flex-direction: row;
         justify-content: space-around;

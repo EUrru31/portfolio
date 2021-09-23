@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Index from "@/views/Index.vue";
-import Reservia from "@/views/Reservia.vue";
-import Ohmyfood from "@/views/Ohmyfood.vue";
-import Piquante from "@/views/Piquante.vue";
-import Groupomania from "@/views/Groupomania.vue";
-import Orinoco from "@/views/Orinoco.vue";
-import CV from "@/views/CV.vue";
+import Reservia from "@/components/Reservia.vue";
+import Ohmyfood from "@/components/Ohmyfood.vue";
+import Piquante from "@/components/Piquante.vue";
+import Groupomania from "@/components/Groupomania.vue";
+import Orinoco from "@/components/Orinoco.vue";
+import CV from "@/components/CV.vue";
 
 const routes = [
     {

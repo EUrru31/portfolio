@@ -2,53 +2,53 @@
     <div class="container">
         <Header />
 
-        <div class="ohmyfood">
-            <img src="../assets/ohmyfood.png" alt="photo ohmyfood" />
+        <div class="reservia">
+            <img src="../assets/Reservia.png" alt="photo Réservia" />
             <div>
-                <h1>Ohmyfood</h1>
+                <h1 class="reservia__title">Réservia</h1>
                 <p>
-                    Projet 3 du parcours Développeur Web OpenClassrooms
+                    Projet 2 du parcours Développeur Web OpenClassrooms
                 </p>
                 <p>
-                    L'objectif du projet est de mettre en oeuvre des effets
-                    visuels et des animations sur une page web.
+                    L'objectif du projet est d'intégrer le prototype d'un site
+                    proposant aux usagers de trouver des hébergements et des
+                    activités dans la ville de leur choix.
                 </p>
                 <p>
-                    Assurer la cohérence graphique d'un site web.
-                </p>
-                <p>
-                    Mettre en place une structure de navigation.
+                    Un design basé sur les principes du Material Design nous est
+                    proposé.
                 </p>
 
                 <h3>Technologies Utilisées</h3>
 
                 <p>
-                    HTML, CSS, Préprocesseur CSS: Sass
+                    HTML, CSS
                 </p>
                 <div class="lien">
                     <a
-                        href="https://eurru31.github.io/OhMyFood-HTML-CSS-OpenClassrooms/"
+                        href="https://eurru31.github.io/Reservia-HTML-CSS-OpenClassrooms/"
                         target="_blank"
                         >Lien vers le site</a
                     >
                     <a
-                        href="https://github.com/EUrru31/OhMyFood-HTML-CSS-OpenClassrooms"
+                        href="https://github.com/EUrru31/Reservia-HTML-CSS-OpenClassrooms"
                         target="_blank"
                         >Lien vers le Github</a
                     >
                 </div>
             </div>
         </div>
+
         <Footer />
     </div>
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import Header from "./Header.vue";
+import Footer from "./Footer.vue";
 
 export default {
-    name: "Ohmyfood",
+    name: "Reservia",
     components: { Header, Footer },
     methods: {
         home() {
@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.ohmyfood {
+.reservia {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 50px;
@@ -86,7 +86,7 @@ a {
     text-decoration: none;
 }
 @media screen and (min-width: 1025px) {
-    .ohmyfood {
+    .reservia {
         display: flex;
         flex-direction: row;
         justify-content: space-around;

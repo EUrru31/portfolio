@@ -2,31 +2,26 @@
     <div class="container">
         <Header />
 
-        <div class="groupomania">
-            <img src="../assets/groupomania.png" alt="photo Groupomania" />
+        <div class="orinoco">
+            <img src="../assets/orinoco.jpg" alt="photo Orinoco" />
             <div>
-                <h1>Groupomania</h1>
+                <h1>Orinoco</h1>
                 <p>
-                    Projet 7 du parcours Développeur Web OpenClassrooms
+                    Projet 5 du parcours Développeur Web OpenClassrooms
                 </p>
                 <p>
-                    L'objectif du projet est de construire un réseau social
-                    interne pour les employés de Groupomania. Le but de cet
-                    outil est de faciliter les interactions entre collègues. Le
-                    département RH de Groupomania a laissé libre cours à son
-                    imagination pour les fonctionnalités du réseau et a imaginé
-                    plusieurs briques pour favoriser les échanges entre
-                    collègues.
+                    L'objectif du projet est de construire un site de vente en
+                    ligne.
                 </p>
 
                 <h3>Technologies Utilisées</h3>
 
                 <p>
-                    Vue.JS, MySQL, Node.JS
+                    Javascript, Bootstrap 4
                 </p>
                 <div class="lien">
                     <a
-                        href="https://github.com/EUrru31/Groupomania-VueJS-NodeJS--Mysql-Openclassrooms"
+                        href="https://github.com/EUrru31/Orinoco-Javascript-OpenClassrooms"
                         target="_blank"
                         >Lien vers le Github</a
                     >
@@ -39,11 +34,11 @@
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import Header from "./Header.vue";
+import Footer from "./Footer.vue";
 
 export default {
-    name: "Groupomania",
+    name: "Orinoco",
     components: { Header, Footer },
     methods: {
         home() {
@@ -54,7 +49,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.groupomania {
+.orinoco {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 50px;
@@ -81,7 +76,7 @@ a {
     text-decoration: none;
 }
 @media screen and (min-width: 1025px) {
-    .groupomania {
+    .orinoco {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
