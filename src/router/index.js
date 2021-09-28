@@ -19,7 +19,7 @@ const routes = [
     },
     {
         name: "Reservia",
-        path: "/Reservia",
+        path: "/#Reservia",
         component: Reservia,
         meta: {
             title: "Etienne Urru Reservia",
@@ -29,7 +29,7 @@ const routes = [
     },
     {
         name: "Ohmyfood",
-        path: "/Ohmyfood",
+        path: "/#Ohmyfood",
         component: Ohmyfood,
         meta: {
             title: "Etienne Urru Ohmyfood",
@@ -39,7 +39,7 @@ const routes = [
     },
     {
         name: "Piquante",
-        path: "/Piquante",
+        path: "/#Piquante",
         component: Piquante,
         meta: {
             title: "Etienne Urru Piquante",
@@ -49,7 +49,7 @@ const routes = [
     },
     {
         name: "Orinoco",
-        path: "/Orinoco",
+        path: "/#Orinoco",
         component: Orinoco,
         meta: {
             title: "Etienne Urru Orinoco",
@@ -59,7 +59,7 @@ const routes = [
     },
     {
         name: "Groupomania",
-        path: "/Groupomania",
+        path: "/#Groupomania",
         component: Groupomania,
         meta: {
             title: "Etienne Urru Groupomania",
@@ -69,7 +69,7 @@ const routes = [
     },
     {
         name: "CV",
-        path: "/CV",
+        path: "/#CV",
         component: CV,
         meta: {
             title: "Etienne Urru CV",
@@ -80,7 +80,8 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes,
+    routes= Routes,
+    mode= 'hash'
 });
 
 router.afterEach((to) => {

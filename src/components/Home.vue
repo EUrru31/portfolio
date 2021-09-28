@@ -76,6 +76,7 @@ img {
     }
     h1 {
         font-size: 3rem;
+        text-align: start;
     }
     .homeBulle {
         width: 400px;
